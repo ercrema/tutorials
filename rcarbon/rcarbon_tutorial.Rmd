@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The analysis of large collections of radiocarbon dates is perhaps the most emblematic example of data re-use in archaeology. Samples originally collected for different purposes have been used to infer cultural phases, the onset of particular events, or to infer past population dynamics. Notwithstanding the methodological and interpretative challenges, these new directions of research are offering new insights as well as an exceptional opportunity for developing a comparative framework for the analysis of prehistoric data. 
 
-Until very recently the great majority of statistical analysis of radiocarbon dates have been monopolised by OxCal, which still provides the best tool for developing Bayesian chronological models. However, the continuous methodological advances in the last few years have fostered the development of multiple R packages, making this software environment an exciting complementary tool to [OxCal](https://c14.arch.ox.ac.uk/oxcal.html). This tutorial will focus on *rcarbon*, an R package dedicated specifically to the analysis of large collection radiocarbon dates.
+Until very recently the great majority of statistical analysis of radiocarbon dates have been monopolised by [OxCal](https://c14.arch.ox.ac.uk/oxcal.html), which still provides the best tool for developing Bayesian chronological models. However, the continuous methodological advances in the last few years have fostered the development of multiple R packages, making this software environment an exciting complementary tool to OxCal. This tutorial will focus on *rcarbon*, an R package dedicated specifically to the analysis of large collection radiocarbon dates.
 
 ### R packages for analysing radiocarbon dates
 
@@ -306,35 +306,31 @@ You have reached the end of the tutorial. If you wish to know more about *rcarbo
 
 # References
 
-Bevan, A., S. Colledge., D. Fuller., R. Fyfe., S. Shennan. & C. Stevens. 2017. Holocene fluctuations in human population demonstrate repeated links to food production and climate Proceedings of the National Academy of Sciences 114: E10524–31.
+Bevan, A., S. Colledge., D. Fuller., R. Fyfe., S. Shennan. & C. Stevens. 2017. [Holocene fluctuations in human population demonstrate repeated links to food production and climate](https://doi.org/10.1073/pnas.1709190114 ). Proceedings of the National Academy of Sciences 114: E10524–31. 
 
-Bronk Ramsey C. 2008. Radiocarbon dating: revolutions in understanding. Archaeometry 50: 249–75.
+Brown, W. A. 2017. [The past and future of growth rate estimation in demographic temporal frequency analysis: Biodemographic interpretability and the ascendance of dynamic growth models](https://doi.org/10.1016/j.jas.2017.02.003). Journal of Archaeological Science, 80, 96–108.  
 
-Brown, W. A. 2017. The past and future of growth rate estimation in demographic temporal frequency analysis: Biodemographic interpretability and the ascendance of dynamic growth models. Journal of Archaeological Science, 80, 96–108.
+Collard, M., K. Edinborough, S. Shennan & M.G. Thomas 2010. [Radiocarbon evidence indicates that migrants introduced farming to Britain](https://doi.org/10.1016/j.jas.2009.11.016 ). Journal of Archaeological Science 37: 866–70. 
 
-Collard, M., K. Edinborough, S. Shennan & M.G. Thomas 2010. Radiocarbon evidence indicates that migrants introduced farming to Britain Journal of Archaeological Science 37: 866–70.
+Crema, E.R., J. Habu, K. Kobayashi & M. Madella 2016. [Summed Probability Distribution of 14 C Dates Suggests Regional Divergences in the Population Dynamics of the Jomon Period in Eastern Japan](https://doi.org/10.1371/journal.pone.0154809). PLOS ONE 11: e0154809. 
 
-Crema, E.R., J. Habu, K. Kobayashi & M. Madella 2016. Summed Probability Distribution of 14 C Dates Suggests Regional Divergences in the Population Dynamics of the Jomon Period in Eastern Japan PLOS ONE 11: e0154809.
+Crema, E.R., A. Bevan. & S. Shennan. 2017. [Spatio-temporal approaches to archaeological radiocarbon dates](https://doi.org/10.1016/j.jas.2017.09.007). Journal of Archaeological Science 87: 1–9. 
 
-Crema, E.R., A. Bevan. & S. Shennan. 2017. Spatio-temporal approaches to archaeological radiocarbon dates Journal of Archaeological Science 87: 1–9.
+Kneisel et al. 2013: Jutta Kneisel/Martin Hinz/Christoph Rinne, [Radon-B](http://radon-b.ufg.uni-kiel.de.) 
 
-Edinborough, K., M. Porčić, A. Martindale, T.J. Brown, K. Supernant & K.M. Ames 2017. Radiocarbon test for demographic events in written and oral history Proceedings of the National Academy of Sciences 114: 12436–41.
+Manning, K., S. Colledge, E. Crema, S. Shennan & A. Timpson 2016. [The Cultural Evolution of Neolithic Europe. EUROEVOL Dataset 1: Sites, Phases and Radiocarbon Data](http://openarchaeologydata.metajnl.com/articles/10.5334/joad.40/). Journal of Open Archaeology Data 5.
 
-Kneisel et al. 2013: Jutta Kneisel/Martin Hinz/Christoph Rinne, Radon-B. In: http://radon-b.ufg.uni-kiel.de.
+Rick, J.W. 1987. [Dates as Data: An Examination of the Peruvian Preceramic Radiocarbon Record](https://doi.org/10.2307/281060). American Antiquity 52: 55–73. 
 
-Manning, K., S. Colledge, E. Crema, S. Shennan & A. Timpson 2016. The Cultural Evolution of Neolithic Europe. EUROEVOL Dataset 1: Sites, Phases and Radiocarbon Data Journal of Open Archaeology Data 5. http://openarchaeologydata.metajnl.com/articles/10.5334/joad.40/.
+Roberts, N., J. Woodbridge, A. Bevan, A. Palmisano, S. Shennan & E. Asouti 2018. [Human responses and non-responses to climatic variations during the last Glacial-Interglacial transition in the eastern Mediterranean](https://doi.org/10.1016/j.quascirev.2017.09.011). Quaternary Science Reviews 184. Late Glacial to Early Holocene Socio-Ecological Responses to Climatic Instability within the Mediterranean Basin: 47–67.  
 
-Rick, J.W. 1987. Dates as Data: An Examination of the Peruvian Preceramic Radiocarbon Record American Antiquity 52: 55–73
+Shennan, S., S.S. Downey., A. Timpson., K. Edinborough., S. Colledge., T. Kerig., K. Manning. & M.G. Thomas. 2013. [Regional population collapse followed initial agriculture booms in mid-Holocene Europe](https://doi.org/10.1038/ncomms3486). Nature Communications 4: ncomms3486. 
 
-Roberts, N., J. Woodbridge, A. Bevan, A. Palmisano, S. Shennan & E. Asouti 2018. Human responses and non-responses to climatic variations during the last Glacial-Interglacial transition in the eastern Mediterranean Quaternary Science Reviews 184. Late Glacial to Early Holocene Socio-Ecological Responses to Climatic Instability within the Mediterranean Basin: 47–67.
+Stevens, C.J. & D.Q. Fuller 2012. [Did Neolithic farming fail? The case for a Bronze Age agricultural revolution in the British Isles](https://doi.org/10.1017/S0003598X00047864). Antiquity 86: 707–22. 
 
-Shennan, S., S.S. Downey., A. Timpson., K. Edinborough., S. Colledge., T. Kerig., K. Manning. & M.G. Thomas. 2013. Regional population collapse followed initial agriculture booms in mid-Holocene Europe Nature Communications 4: ncomms3486.
+Timpson, A., S. Colledge, E. Crema, K. Edinborough, T. Kerig, K. Manning, M.G. Thomas & S. Shennan. 2014. [Reconstructing regional population fluctuations in the European Neolithic using radiocarbon dates: a new case-study using an improved method](https://doi.org/10.1016/j.jas.2014.08.011). Journal of Archaeological Science 52: 549–57 
 
-Stevens, C.J. & D.Q. Fuller 2012. Did Neolithic farming fail? The case for a Bronze Age agricultural revolution in the British Isles Antiquity 86: 707–22.
-
-Timpson, A., S. Colledge, E. Crema, K. Edinborough, T. Kerig, K. Manning, M.G. Thomas & S. Shennan. 2014. Reconstructing regional population fluctuations in the European Neolithic using radiocarbon dates: a new case-study using an improved method Journal of Archaeological Science 52: 549–57
-
-Weninger, B., L. Clare, O. Jöris, R. Jung & K. Edinborough 2015. Quantum theory of radiocarbon calibration World Archaeology 47: 543–66.
+Weninger, B., L. Clare, O. Jöris, R. Jung & K. Edinborough 2015. [Quantum theory of radiocarbon calibration](https://doi.org/10.1080/00438243.2015.1064022). World Archaeology 47: 543–66.  
 
 
 
